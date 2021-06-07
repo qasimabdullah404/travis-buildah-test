@@ -52,4 +52,4 @@ jobs:
         - id
         - buildah version
       script:
-        - buildah bud  -f ./image/Dockerfile ./image
+        - buildah bud  --arch="s390x" -f ./image/Dockerfile ./image
