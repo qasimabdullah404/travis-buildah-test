@@ -41,7 +41,7 @@ jobs:
     - name: Build Linux Z
       os: linux
       arch: s390x
-      dist: xenial
+      dist: focal
       # installation instructions for Buildah taken from https://github.com/containers/buildah/blob/master/install.md
       before_script:
         - sudo apt-get update -qq
